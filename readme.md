@@ -26,10 +26,14 @@ This bot automates the process of creating accounts and using referral codes for
 
    ```sh
    npm install
+   sudo apt-get install xvfb
+   snap install chromium
    ```
 
 3. Create a `proxy.txt` file in the root directory and add your proxies (one per line)(Optional).
-
+```sh
+nano proxy.txt
+```
 ## Usage
 
 1. Run the bot:
